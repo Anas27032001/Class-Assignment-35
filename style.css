@@ -1,0 +1,72 @@
+.pricing_table{
+    background-color: #f5f8fb;
+}
+.pricing_table_text p{
+    color:#6e657e ;
+    padding-top: 17px;
+    
+}
+.pricing_table_text{
+    padding: 70px 0;
+}
+.pricing_table_text h1{
+    position: relative;
+}
+.pricing_table_text h1::before {
+	content: "";
+	height: 2px;
+	width: 60px;
+	background-color: #3763eb;
+	position: absolute;
+	left: 44%;
+	bottom: -14px;
+}
+.border_radius{
+    border-radius: 30px;
+}
+.services_text_part2{}
+.services_text_part2 ul li {
+	padding: 9px 0;
+	font-size: 20px;
+}
+.banner {
+	background: url(./photo/free-bg.jpg
+	);
+	padding-top: 70px;
+	padding-bottom: 300px;
+	background-size: cover;
+	position: relative;
+	z-index:1;
+}
+.banner::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #3e67e1d0;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+.btn_last {
+	color: #3763eb;
+	display: inline-block;
+	background: white;
+	padding: 18px 30px;
+	font-weight: 600;
+	border-radius: 33px;
+	margin-top: 40px;
+}
+.banner_text h1{
+	position: relative;
+	margin-bottom: 30px;
+}
+.banner_text h1::after {
+	content: "";
+	position: absolute;
+	bottom: -16px;
+	left: 43%;
+	height: 2px;
+	width: 76px;
+	background-color: #fff;
+}
